@@ -1,0 +1,98 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Scenic Clock HD PC X</name>
+    </assembly>
+    <members>
+        <member name="T:Scenic_Clock_HD_PC_X.Clock.Digits">
+            <summary>
+            Digits class for holding the 'digits' of time
+            using 10:35:24 in example
+            </summary>
+        </member>
+        <member name="M:Scenic_Clock_HD_PC_X.ButtonDisplay.UpdateTextureInfo(Microsoft.Xna.Framework.GameTime)">
+            <summary>
+            Updates the size and position information for the textures used by the ButtonDisplay object.
+            </summary>
+            <param name="gameTime"></param>
+        </member>
+        <member name="M:Scenic_Clock_HD_PC_X.AnalogClock.UpdateTextureInformation">
+            <summary>
+            Updates the size, position, origin, etc information for the textures making up the Analog Clock.
+            </summary>
+        </member>
+        <member name="T:Scenic_Clock_HD_PC_X.ScenicClockApp">
+            <summary>
+            This is the main type for your game
+            </summary>
+        </member>
+        <member name="M:Scenic_Clock_HD_PC_X.ScenicClockApp.Initialize">
+            <summary>
+            Allows the game to perform any initialization it needs to before starting to run.
+            This is where it can query for any required services and load any non-graphic
+            related content.  Calling base.Initialize will enumerate through any components
+            and initialize them as well.
+            </summary>
+        </member>
+        <member name="M:Scenic_Clock_HD_PC_X.ScenicClockApp.LoadContent">
+            <summary>
+            LoadContent will be called once per game and is the place to load
+            all of your content.
+            </summary>
+        </member>
+        <member name="M:Scenic_Clock_HD_PC_X.ScenicClockApp.UnloadContent">
+            <summary>
+            UnloadContent will be called once per game and is the place to unload
+            all content.
+            </summary>
+        </member>
+        <member name="M:Scenic_Clock_HD_PC_X.ScenicClockApp.HandleInput">
+            <summary>
+            Handles key and button input
+            </summary>
+        </member>
+        <member name="M:Scenic_Clock_HD_PC_X.ScenicClockApp.Update(Microsoft.Xna.Framework.GameTime)">
+            <summary>
+            Allows the game to run logic such as updating the world,
+            checking for collisions, gathering input, and playing audio.
+            </summary>
+            <param name="gameTime">Provides a snapshot of timing values.</param>
+        </member>
+        <member name="M:Scenic_Clock_HD_PC_X.ScenicClockApp.Draw(Microsoft.Xna.Framework.GameTime)">
+            <summary>
+            This is called when the game should draw itself.
+            </summary>
+            <param name="gameTime">Provides a snapshot of timing values.</param>
+        </member>
+        <member name="M:Scenic_Clock_HD_PC_X.ScenicClockApp.Main(System.String[])">
+            <summary>
+            Main method
+            </summary>
+            <param name="args"></param>
+        </member>
+        <member name="M:Scenic_Clock_HD_PC_X.Spritesheet.#ctor(Microsoft.Xna.Framework.Graphics.Texture2D,System.Int32,System.Int32)">
+            
+            Constructor
+            
+            assumes that each 'sprite' is evenly distributed 
+            
+            x number of 'sprites' in the x axis
+            y number of 'sprites' in the y axis
+            
+        </member>
+        <member name="M:Scenic_Clock_HD_PC_X.Spritesheet.SetSprite(System.Int32,System.Int32)">
+            <summary>
+            sets the sprite. Ex SetSprite(1,2) will set the current sprite to 1 to the left, and 2 down
+            </summary>
+            <param name="x">sprite in x axis</param>
+            <param name="y">sprite in y axis</param>
+        </member>
+        <member name="M:Scenic_Clock_HD_PC_X.Spritesheet.setPosition(System.Int32,System.Int32)">
+            <summary>
+            set the current sprite draw position. This 'should' be the center of the sprite
+            </summary>
+            <param name="x">x position to draw</param>
+            <param name="y">y position to draw</param>
+        </member>
+    </members>
+</doc>

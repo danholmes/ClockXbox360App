@@ -1,0 +1,8 @@
+C:\Users\Daniel\Documents\Visual Studio 2010\Projects\Scenic Clock HD PC X\Scenic Clock HD PC X\Scenic Clock HD PC X\bin\x86\Release\Content\MEDIA\Wallpapers\Nature\grass1080p.xnb
+C:\Users\Daniel\Documents\Visual Studio 2010\Projects\Scenic Clock HD PC X\Scenic Clock HD PC X\Scenic Clock HD PC X\bin\x86\Release\Content\MEDIA\Wallpapers\Nature\leaves1080p.xnb
+C:\Users\Daniel\Documents\Visual Studio 2010\Projects\Scenic Clock HD PC X\Scenic Clock HD PC X\Scenic Clock HD PC X\bin\x86\Release\Scenic Clock HD PC X.exe
+C:\Users\Daniel\Documents\Visual Studio 2010\Projects\Scenic Clock HD PC X\Scenic Clock HD PC X\Scenic Clock HD PC X\bin\x86\Release\Scenic Clock HD PC X.pdb
+C:\Users\Daniel\Documents\Visual Studio 2010\Projects\Scenic Clock HD PC X\Scenic Clock HD PC X\Scenic Clock HD PC X\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Users\Daniel\Documents\Visual Studio 2010\Projects\Scenic Clock HD PC X\Scenic Clock HD PC X\Scenic Clock HD PC X\obj\x86\Release\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Daniel\Documents\Visual Studio 2010\Projects\Scenic Clock HD PC X\Scenic Clock HD PC X\Scenic Clock HD PC X\obj\x86\Release\Scenic Clock HD PC X.exe
+C:\Users\Daniel\Documents\Visual Studio 2010\Projects\Scenic Clock HD PC X\Scenic Clock HD PC X\Scenic Clock HD PC X\obj\x86\Release\Scenic Clock HD PC X.pdb

@@ -1,0 +1,14 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+
+namespace Scenic_Clock_HD_PC_X
+{
+    class SpriteSheet
+    {
+        public SpriteSheet(String filename) {
+        
+        }
+    }
+}

@@ -1,0 +1,4 @@
+c:\users\daniel\documents\visual studio 2010\Projects\Scenic Clock HD PC X\Scenic Clock HD PC X\Scenic Clock HD PC XContent\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\PROJECTS\C#\Scenic Clock HD\Scenic Clock HD PC X\Scenic Clock HD PC XContent\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Daniel\XNA SYNC\Scenic Clock HD PC\Scenic Clock HD PC X\Scenic Clock HD PC XContent\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Daniel\Dropbox\Documents\Monarch\CLOCK\Scenic Clock HD PC X\Scenic Clock HD PC XContent\obj\x86\Debug\ResolveAssemblyReference.cache

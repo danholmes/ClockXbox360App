@@ -1,0 +1,1126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>MEDIA\Wallpapers\Nature\grass1080p.jpg</Source>
+      <Name>MEDIA\Wallpapers\Nature\grass1080p</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Daniel\Dropbox\Documents\Monarch\CLOCK\Scenic Clock HD PC X\Scenic Clock HD PC X\bin\x86\Debug\Content\MEDIA\Wallpapers\Nature\grass1080p.xnb</Output>
+      <Time>2011-11-19T13:23:02.7250546-05:00</Time>
+    </Item>
+    <Item>
+      <Source>MEDIA\Wallpapers\Nature\leaves1080p.jpg</Source>
+      <Name>MEDIA\Wallpapers\Nature\leaves1080p</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Daniel\Dropbox\Documents\Monarch\CLOCK\Scenic Clock HD PC X\Scenic Clock HD PC X\bin\x86\Debug\Content\MEDIA\Wallpapers\Nature\leaves1080p.xnb</Output>
+      <Time>2011-11-19T13:23:02.7450546-05:00</Time>
+    </Item>
+    <Item>
+      <Source>buttondisplaybg.png</Source>
+      <Name>buttondisplaybg</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Daniel\Dropbox\Documents\Monarch\CLOCK\Scenic Clock HD PC X\Scenic Clock HD PC X\bin\x86\Debug\Content\buttondisplaybg.xnb</Output>
+      <Time>2011-11-19T13:23:02.8550548-05:00</Time>
+    </Item>
+    <Item>
+      <Source>MEDIA\test_numbers.png</Source>
+      <Name>MEDIA\test_numbers</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Daniel\Dropbox\Documents\Monarch\CLOCK\Scenic Clock HD PC X\Scenic Clock HD PC X\bin\x86\Debug\Content\MEDIA\test_numbers.xnb</Output>
+      <Time>2011-11-19T13:23:02.7950547-05:00</Time>
+    </Item>
+    <Item>
+      <Source>MEDIA\Wallpapers\Nature\mountainbeach1080p.jpg</Source>
+      <Name>MEDIA\Wallpapers\Nature\mountainbeach1080p</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Daniel\Dropbox\Documents\Monarch\CLOCK\Scenic Clock HD PC X\Scenic Clock HD PC X\bin\x86\Debug\Content\MEDIA\Wallpapers\Nature\mountainbeach1080p.xnb</Output>
+      <Time>2011-11-19T13:23:02.7950547-05:00</Time>
+    </Item>
+    <Item>
+      <Source>controlConfig.png</Source>
+      <Name>controlConfig</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Daniel\Dropbox\Documents\Monarch\CLOCK\Scenic Clock HD PC X\Scenic Clock HD PC X\bin\x86\Debug\Content\controlConfig.xnb</Output>
+      <Time>2011-11-19T13:23:02.8650548-05:00</Time>
+    </Item>
+    <Item>
+      <Source>holdytoshowcontrols.png</Source>
+      <Name>holdytoshowcontrols</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Daniel\Dropbox\Documents\Monarch\CLOCK\Scenic Clock HD PC X\Scenic Clock HD PC X\bin\x86\Debug\Content\holdytoshowcontrols.xnb</Output>
+      <Time>2011-11-19T13:23:02.8650548-05:00</Time>
+    </Item>
+    <Item>
+      <Source>Picture1.png</Source>
+      <Name>Picture1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Daniel\Dropbox\Documents\Monarch\CLOCK\Scenic Clock HD PC X\Scenic Clock HD PC X\bin\x86\Debug\Content\Picture1.xnb</Output>
+      <Time>2011-11-19T13:23:02.8250547-05:00</Time>
+    </Item>
+    <Item>
+      <Source>MEDIA\Clock\FlipClock\Min00.png</Source>
+      <Name>MEDIA\Clock\FlipClock\Min00</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Daniel\Dropbox\Documents\Monarch\CLOCK\Scenic Clock HD PC X\Scenic Clock HD PC X\bin\x86\Debug\Content\MEDIA\Clock\FlipClock\Min00.xnb</Output>
+      <Time>2011-11-19T13:22:59.4950501-05:00</Time>
+    </Item>
+    <Item>
+      <Source>MEDIA\Clock\FlipClock\Min01.png</Source>
+      <Name>MEDIA\Clock\FlipClock\Min01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Daniel\Dropbox\Documents\Monarch\CLOCK\Scenic Clock HD PC X\Scenic Clock HD PC X\bin\x86\Debug\Content\MEDIA\Clock\FlipClock\Min01.xnb</Output>
+      <Time>2011-11-19T13:22:59.5350501-05:00</Time>
+    </Item>
+    <Item>
+      <Source>MEDIA\Clock\FlipClock\Min02.png</Source>
+      <Name>MEDIA\Clock\FlipClock\Min02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Daniel\Dropbox\Documents\Monarch\CLOCK\Scenic Clock HD PC X\Scenic Clock HD PC X\bin\x86\Debug\Content\MEDIA\Clock\FlipClock\Min02.xnb</Output>
+      <Time>2011-11-19T13:22:59.5650502-05:00</Time>
+    </Item>
+    <Item>
+      <Source>MEDIA\Clock\FlipClock\Min03.png</Source>
+      <Name>MEDIA\Clock\FlipClock\Min03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Daniel\Dropbox\Documents\Monarch\CLOCK\Scenic Clock HD PC X\Scenic Clock HD PC X\bin\x86\Debug\Content\MEDIA\Clock\FlipClock\Min03.xnb</Output>
+      <Time>2011-11-19T13:22:59.5750502-05:00</Time>
+    </Item>
+    <Item>
+      <Source>MEDIA\Clock\FlipClock\Min04.png</Source>
+      <Name>MEDIA\Clock\FlipClock\Min04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Daniel\Dropbox\Documents\Monarch\CLOCK\Scenic Clock HD PC X\Scenic Clock HD PC X\bin\x86\Debug\Content\MEDIA\Clock\FlipClock\Min04.xnb</Output>
+      <Time>2011-11-19T13:22:59.5950502-05:00</Time>
+    </Item>
+    <Item>
+      <Source>MEDIA\Clock\FlipClock\Min05.png</Source>
+      <Name>MEDIA\Clock\FlipClock\Min05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Daniel\Dropbox\Documents\Monarch\CLOCK\Scenic Clock HD PC X\Scenic Clock HD PC X\bin\x86\Debug\Content\MEDIA\Clock\FlipClock\Min05.xnb</Output>
+      <Time>2011-11-19T13:22:59.6450503-05:00</Time>
+    </Item>
+    <Item>
+      <Source>MEDIA\Clock\FlipClock\Min06.png</Source>
+      <Name>MEDIA\Clock\FlipClock\Min06</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Daniel\Dropbox\Documents\Monarch\CLOCK\Scenic Clock HD PC X\Scenic Clock HD PC X\bin\x86\Debug\Content\MEDIA\Clock\FlipClock\Min06.xnb</Output>
+      <Time>2011-11-19T13:22:59.6650503-05:00</Time>
+    </Item>
+    <Item>
+      <Source>MEDIA\Clock\FlipClock\Min07.png</Source>
+      <Name>MEDIA\Clock\FlipClock\Min07</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Daniel\Dropbox\Documents\Monarch\CLOCK\Scenic Clock HD PC X\Scenic Clock HD PC X\bin\x86\Debug\Content\MEDIA\Clock\FlipClock\Min07.xnb</Output>
+      <Time>2011-11-19T13:22:59.6950503-05:00</Time>
+    </Item>
+    <Item>
+      <Source>MEDIA\Clock\FlipClock\Min08.png</Source>
+      <Name>MEDIA\Clock\FlipClock\Min08</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Daniel\Dropbox\Documents\Monarch\CLOCK\Scenic Clock HD PC X\Scenic Clock HD PC X\bin\x86\Debug\Content\MEDIA\Clock\FlipClock\Min08.xnb</Output>
+      <Time>2011-11-19T13:22:59.7350504-05:00</Time>
+    </Item>
+    <Item>
+      <Source>MEDIA\Clock\FlipClock\Min09.png</Source>
+      <Name>MEDIA\Clock\FlipClock\Min09</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Daniel\Dropbox\Documents\Monarch\CLOCK\Scenic Clock HD PC X\Scenic Clock HD PC X\bin\x86\Debug\Content\MEDIA\Clock\FlipClock\Min09.xnb</Output>
+      <Time>2011-11-19T13:22:59.7850505-05:00</Time>
+    </Item>
+    <Item>
+      <Source>MEDIA\Clock\FlipClock\Min10.png</Source>
+      <Name>MEDIA\Clock\FlipClock\Min10</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Daniel\Dropbox\Documents\Monarch\CLOCK\Scenic Clock HD PC X\Scenic Clock HD PC X\bin\x86\Debug\Content\MEDIA\Clock\FlipClock\Min10.xnb</Output>
+      <Time>2011-11-19T13:22:59.8050505-05:00</Time>
+    </Item>
+    <Item>
+      <Source>MEDIA\Clock\FlipClock\Min11.png</Source>
+      <Name>MEDIA\Clock\FlipClock\Min11</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Daniel\Dropbox\Documents\Monarch\CLOCK\Scenic Clock HD PC X\Scenic Clock HD PC X\bin\x86\Debug\Content\MEDIA\Clock\FlipClock\Min11.xnb</Output>
+      <Time>2011-11-19T13:22:59.8350505-05:00</Time>
+    </Item>
+    <Item>
+      <Source>MEDIA\Clock\FlipClock\Min12.png</Source>
+      <Name>MEDIA\Clock\FlipClock\Min12</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Daniel\Dropbox\Documents\Monarch\CLOCK\Scenic Clock HD PC X\Scenic Clock HD PC X\bin\x86\Debug\Content\MEDIA\Clock\FlipClock\Min12.xnb</Output>
+      <Time>2011-11-19T13:22:59.8650506-05:00</Time>
+    </Item>
+    <Item>
+      <Source>MEDIA\Clock\FlipClock\Min13.png</Source>
+      <Name>MEDIA\Clock\FlipClock\Min13</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Daniel\Dropbox\Documents\Monarch\CLOCK\Scenic Clock HD PC X\Scenic Clock HD PC X\bin\x86\Debug\Content\MEDIA\Clock\FlipClock\Min13.xnb</Output>
+      <Time>2011-11-19T13:22:59.8850506-05:00</Time>
+    </Item>
+    <Item>
+      <Source>MEDIA\Clock\FlipClock\Min14.png</Source>
+      <Name>MEDIA\Clock\FlipClock\Min14</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Daniel\Dropbox\Documents\Monarch\CLOCK\Scenic Clock HD PC X\Scenic Clock HD PC X\bin\x86\Debug\Content\MEDIA\Clock\FlipClock\Min14.xnb</Output>
+      <Time>2011-11-19T13:22:59.9550507-05:00</Time>
+    </Item>
+    <Item>
+      <Source>MEDIA\Clock\FlipClock\Min15.png</Source>
+      <Name>MEDIA\Clock\FlipClock\Min15</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Daniel\Dropbox\Documents\Monarch\CLOCK\Scenic Clock HD PC X\Scenic Clock HD PC X\bin\x86\Debug\Content\MEDIA\Clock\FlipClock\Min15.xnb</Output>
+      <Time>2011-11-19T13:23:00.0750509-05:00</Time>
+    </Item>
+    <Item>
+      <Source>MEDIA\Clock\FlipClock\Min16.png</Source>
+      <Name>MEDIA\Clock\FlipClock\Min16</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Daniel\Dropbox\Documents\Monarch\CLOCK\Scenic Clock HD PC X\Scenic Clock HD PC X\bin\x86\Debug\Content\MEDIA\Clock\FlipClock\Min16.xnb</Output>
+      <Time>2011-11-19T13:23:00.2450511-05:00</Time>
+    </Item>
+    <Item>
+      <Source>MEDIA\Clock\FlipClock\Min17.png</Source>
+      <Name>MEDIA\Clock\FlipClock\Min17</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Daniel\Dropbox\Documents\Monarch\CLOCK\Scenic Clock HD PC X\Scenic Clock HD PC X\bin\x86\Debug\Content\MEDIA\Clock\FlipClock\Min17.xnb</Output>
+      <Time>2011-11-19T13:23:00.4050513-05:00</Time>
+    </Item>
+    <Item>
+      <Source>MEDIA\Clock\FlipClock\Min18.png</Source>
+      <Name>MEDIA\Clock\FlipClock\Min18</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Daniel\Dropbox\Documents\Monarch\CLOCK\Scenic Clock HD PC X\Scenic Clock HD PC X\bin\x86\Debug\Content\MEDIA\Clock\FlipClock\Min18.xnb</Output>
+      <Time>2011-11-19T13:23:01.1650524-05:00</Time>
+    </Item>
+    <Item>
+      <Source>MEDIA\Clock\FlipClock\Min19.png</Source>
+      <Name>MEDIA\Clock\FlipClock\Min19</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Daniel\Dropbox\Documents\Monarch\CLOCK\Scenic Clock HD PC X\Scenic Clock HD PC X\bin\x86\Debug\Content\MEDIA\Clock\FlipClock\Min19.xnb</Output>
+      <Time>2011-11-19T13:23:01.3150526-05:00</Time>
+    </Item>
+    <Item>
+      <Source>MEDIA\Clock\FlipClock\Min20.png</Source>
+      <Name>MEDIA\Clock\FlipClock\Min20</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Daniel\Dropbox\Documents\Monarch\CLOCK\Scenic Clock HD PC X\Scenic Clock HD PC X\bin\x86\Debug\Content\MEDIA\Clock\FlipClock\Min20.xnb</Output>
+      <Time>2011-11-19T13:23:01.4450528-05:00</Time>
+    </Item>
+    <Item>
+      <Source>MEDIA\Clock\FlipClock\Min21.png</Source>
+      <Name>MEDIA\Clock\FlipClock\Min21</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Daniel\Dropbox\Documents\Monarch\CLOCK\Scenic Clock HD PC X\Scenic Clock HD PC X\bin\x86\Debug\Content\MEDIA\Clock\FlipClock\Min21.xnb</Output>
+      <Time>2011-11-19T13:23:01.4750528-05:00</Time>
+    </Item>
+    <Item>
+      <Source>MEDIA\Clock\FlipClock\Min22.png</Source>
+      <Name>MEDIA\Clock\FlipClock\Min22</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Daniel\Dropbox\Documents\Monarch\CLOCK\Scenic Clock HD PC X\Scenic Clock HD PC X\bin\x86\Debug\Content\MEDIA\Clock\FlipClock\Min22.xnb</Output>
+      <Time>2011-11-19T13:23:01.4950529-05:00</Time>
+    </Item>
+    <Item>
+      <Source>MEDIA\Clock\FlipClock\Min23.png</Source>
+      <Name>MEDIA\Clock\FlipClock\Min23</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Daniel\Dropbox\Documents\Monarch\CLOCK\Scenic Clock HD PC X\Scenic Clock HD PC X\bin\x86\Debug\Content\MEDIA\Clock\FlipClock\Min23.xnb</Output>
+      <Time>2011-11-19T13:23:01.6750531-05:00</Time>
+    </Item>
+    <Item>
+      <Source>MEDIA\Clock\FlipClock\Min24.png</Source>
+      <Name>MEDIA\Clock\FlipClock\Min24</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Daniel\Dropbox\Documents\Monarch\CLOCK\Scenic Clock HD PC X\Scenic Clock HD PC X\bin\x86\Debug\Content\MEDIA\Clock\FlipClock\Min24.xnb</Output>
+      <Time>2011-11-19T13:23:01.7150532-05:00</Time>
+    </Item>
+    <Item>
+      <Source>MEDIA\Clock\FlipClock\Min25.png</Source>
+      <Name>MEDIA\Clock\FlipClock\Min25</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Daniel\Dropbox\Documents\Monarch\CLOCK\Scenic Clock HD PC X\Scenic Clock HD PC X\bin\x86\Debug\Content\MEDIA\Clock\FlipClock\Min25.xnb</Output>
+      <Time>2011-11-19T13:23:01.7350532-05:00</Time>
+    </Item>
+    <Item>
+      <Source>MEDIA\Clock\FlipClock\Min26.png</Source>
+      <Name>MEDIA\Clock\FlipClock\Min26</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Daniel\Dropbox\Documents\Monarch\CLOCK\Scenic Clock HD PC X\Scenic Clock HD PC X\bin\x86\Debug\Content\MEDIA\Clock\FlipClock\Min26.xnb</Output>
+      <Time>2011-11-19T13:23:01.7750533-05:00</Time>
+    </Item>
+    <Item>
+      <Source>MEDIA\Clock\FlipClock\Min27.png</Source>
+      <Name>MEDIA\Clock\FlipClock\Min27</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Daniel\Dropbox\Documents\Monarch\CLOCK\Scenic Clock HD PC X\Scenic Clock HD PC X\bin\x86\Debug\Content\MEDIA\Clock\FlipClock\Min27.xnb</Output>
+      <Time>2011-11-19T13:23:01.7750533-05:00</Time>
+    </Item>
+    <Item>
+      <Source>MEDIA\Clock\FlipClock\Min28.png</Source>
+      <Name>MEDIA\Clock\FlipClock\Min28</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Daniel\Dropbox\Documents\Monarch\CLOCK\Scenic Clock HD PC X\Scenic Clock HD PC X\bin\x86\Debug\Content\MEDIA\Clock\FlipClock\Min28.xnb</Output>
+      <Time>2011-11-19T13:23:01.8050533-05:00</Time>
+    </Item>
+    <Item>
+      <Source>MEDIA\Clock\FlipClock\Min29.png</Source>
+      <Name>MEDIA\Clock\FlipClock\Min29</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Daniel\Dropbox\Documents\Monarch\CLOCK\Scenic Clock HD PC X\Scenic Clock HD PC X\bin\x86\Debug\Content\MEDIA\Clock\FlipClock\Min29.xnb</Output>
+      <Time>2011-11-19T13:23:01.8350533-05:00</Time>
+    </Item>
+    <Item>
+      <Source>MEDIA\Clock\FlipClock\Min30.png</Source>
+      <Name>MEDIA\Clock\FlipClock\Min30</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Daniel\Dropbox\Documents\Monarch\CLOCK\Scenic Clock HD PC X\Scenic Clock HD PC X\bin\x86\Debug\Content\MEDIA\Clock\FlipClock\Min30.xnb</Output>
+      <Time>2011-11-19T13:23:01.8450534-05:00</Time>
+    </Item>
+    <Item>
+      <Source>MEDIA\Clock\FlipClock\Min31.png</Source>
+      <Name>MEDIA\Clock\FlipClock\Min31</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Daniel\Dropbox\Documents\Monarch\CLOCK\Scenic Clock HD PC X\Scenic Clock HD PC X\bin\x86\Debug\Content\MEDIA\Clock\FlipClock\Min31.xnb</Output>
+      <Time>2011-11-19T13:23:01.8750534-05:00</Time>
+    </Item>
+    <Item>
+      <Source>MEDIA\Clock\FlipClock\Min32.png</Source>
+      <Name>MEDIA\Clock\FlipClock\Min32</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Daniel\Dropbox\Documents\Monarch\CLOCK\Scenic Clock HD PC X\Scenic Clock HD PC X\bin\x86\Debug\Content\MEDIA\Clock\FlipClock\Min32.xnb</Output>
+      <Time>2011-11-19T13:23:01.8950534-05:00</Time>
+    </Item>
+    <Item>
+      <Source>MEDIA\Clock\FlipClock\Min33.png</Source>
+      <Name>MEDIA\Clock\FlipClock\Min33</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Daniel\Dropbox\Documents\Monarch\CLOCK\Scenic Clock HD PC X\Scenic Clock HD PC X\bin\x86\Debug\Content\MEDIA\Clock\FlipClock\Min33.xnb</Output>
+      <Time>2011-11-19T13:23:01.9150534-05:00</Time>
+    </Item>
+    <Item>
+      <Source>MEDIA\Clock\FlipClock\Min34.png</Source>
+      <Name>MEDIA\Clock\FlipClock\Min34</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Daniel\Dropbox\Documents\Monarch\CLOCK\Scenic Clock HD PC X\Scenic Clock HD PC X\bin\x86\Debug\Content\MEDIA\Clock\FlipClock\Min34.xnb</Output>
+      <Time>2011-11-19T13:23:01.9450535-05:00</Time>
+    </Item>
+    <Item>
+      <Source>MEDIA\Clock\FlipClock\Min35.png</Source>
+      <Name>MEDIA\Clock\FlipClock\Min35</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Daniel\Dropbox\Documents\Monarch\CLOCK\Scenic Clock HD PC X\Scenic Clock HD PC X\bin\x86\Debug\Content\MEDIA\Clock\FlipClock\Min35.xnb</Output>
+      <Time>2011-11-19T13:23:01.9950536-05:00</Time>
+    </Item>
+    <Item>
+      <Source>MEDIA\Clock\FlipClock\Min36.png</Source>
+      <Name>MEDIA\Clock\FlipClock\Min36</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Daniel\Dropbox\Documents\Monarch\CLOCK\Scenic Clock HD PC X\Scenic Clock HD PC X\bin\x86\Debug\Content\MEDIA\Clock\FlipClock\Min36.xnb</Output>
+      <Time>2011-11-19T13:23:02.0550536-05:00</Time>
+    </Item>
+    <Item>
+      <Source>MEDIA\Clock\FlipClock\Min37.png</Source>
+      <Name>MEDIA\Clock\FlipClock\Min37</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Daniel\Dropbox\Documents\Monarch\CLOCK\Scenic Clock HD PC X\Scenic Clock HD PC X\bin\x86\Debug\Content\MEDIA\Clock\FlipClock\Min37.xnb</Output>
+      <Time>2011-11-19T13:23:02.0750537-05:00</Time>
+    </Item>
+    <Item>
+      <Source>MEDIA\Clock\FlipClock\Min38.png</Source>
+      <Name>MEDIA\Clock\FlipClock\Min38</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Daniel\Dropbox\Documents\Monarch\CLOCK\Scenic Clock HD PC X\Scenic Clock HD PC X\bin\x86\Debug\Content\MEDIA\Clock\FlipClock\Min38.xnb</Output>
+      <Time>2011-11-19T13:23:02.0850537-05:00</Time>
+    </Item>
+    <Item>
+      <Source>MEDIA\Clock\FlipClock\Min39.png</Source>
+      <Name>MEDIA\Clock\FlipClock\Min39</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Daniel\Dropbox\Documents\Monarch\CLOCK\Scenic Clock HD PC X\Scenic Clock HD PC X\bin\x86\Debug\Content\MEDIA\Clock\FlipClock\Min39.xnb</Output>
+      <Time>2011-11-19T13:23:02.1150537-05:00</Time>
+    </Item>
+    <Item>
+      <Source>MEDIA\Clock\FlipClock\Min40.png</Source>
+      <Name>MEDIA\Clock\FlipClock\Min40</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Daniel\Dropbox\Documents\Monarch\CLOCK\Scenic Clock HD PC X\Scenic Clock HD PC X\bin\x86\Debug\Content\MEDIA\Clock\FlipClock\Min40.xnb</Output>
+      <Time>2011-11-19T13:23:02.1550538-05:00</Time>
+    </Item>
+    <Item>
+      <Source>MEDIA\Clock\FlipClock\Min41.png</Source>
+      <Name>MEDIA\Clock\FlipClock\Min41</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Daniel\Dropbox\Documents\Monarch\CLOCK\Scenic Clock HD PC X\Scenic Clock HD PC X\bin\x86\Debug\Content\MEDIA\Clock\FlipClock\Min41.xnb</Output>
+      <Time>2011-11-19T13:23:02.2150539-05:00</Time>
+    </Item>
+    <Item>
+      <Source>MEDIA\Clock\FlipClock\Min42.png</Source>
+      <Name>MEDIA\Clock\FlipClock\Min42</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Daniel\Dropbox\Documents\Monarch\CLOCK\Scenic Clock HD PC X\Scenic Clock HD PC X\bin\x86\Debug\Content\MEDIA\Clock\FlipClock\Min42.xnb</Output>
+      <Time>2011-11-19T13:23:02.2450539-05:00</Time>
+    </Item>
+    <Item>
+      <Source>MEDIA\Clock\FlipClock\Min43.png</Source>
+      <Name>MEDIA\Clock\FlipClock\Min43</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Daniel\Dropbox\Documents\Monarch\CLOCK\Scenic Clock HD PC X\Scenic Clock HD PC X\bin\x86\Debug\Content\MEDIA\Clock\FlipClock\Min43.xnb</Output>
+      <Time>2011-11-19T13:23:02.2550539-05:00</Time>
+    </Item>
+    <Item>
+      <Source>MEDIA\Clock\FlipClock\Min44.png</Source>
+      <Name>MEDIA\Clock\FlipClock\Min44</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Daniel\Dropbox\Documents\Monarch\CLOCK\Scenic Clock HD PC X\Scenic Clock HD PC X\bin\x86\Debug\Content\MEDIA\Clock\FlipClock\Min44.xnb</Output>
+      <Time>2011-11-19T13:23:02.2650539-05:00</Time>
+    </Item>
+    <Item>
+      <Source>MEDIA\Clock\FlipClock\Min45.png</Source>
+      <Name>MEDIA\Clock\FlipClock\Min45</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Daniel\Dropbox\Documents\Monarch\CLOCK\Scenic Clock HD PC X\Scenic Clock HD PC X\bin\x86\Debug\Content\MEDIA\Clock\FlipClock\Min45.xnb</Output>
+      <Time>2011-11-19T13:23:02.295054-05:00</Time>
+    </Item>
+    <Item>
+      <Source>MEDIA\Clock\FlipClock\Min46.png</Source>
+      <Name>MEDIA\Clock\FlipClock\Min46</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Daniel\Dropbox\Documents\Monarch\CLOCK\Scenic Clock HD PC X\Scenic Clock HD PC X\bin\x86\Debug\Content\MEDIA\Clock\FlipClock\Min46.xnb</Output>
+      <Time>2011-11-19T13:23:02.325054-05:00</Time>
+    </Item>
+    <Item>
+      <Source>MEDIA\Clock\FlipClock\Min47.png</Source>
+      <Name>MEDIA\Clock\FlipClock\Min47</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Daniel\Dropbox\Documents\Monarch\CLOCK\Scenic Clock HD PC X\Scenic Clock HD PC X\bin\x86\Debug\Content\MEDIA\Clock\FlipClock\Min47.xnb</Output>
+      <Time>2011-11-19T13:23:02.3750541-05:00</Time>
+    </Item>
+    <Item>
+      <Source>MEDIA\Clock\FlipClock\Min48.png</Source>
+      <Name>MEDIA\Clock\FlipClock\Min48</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Daniel\Dropbox\Documents\Monarch\CLOCK\Scenic Clock HD PC X\Scenic Clock HD PC X\bin\x86\Debug\Content\MEDIA\Clock\FlipClock\Min48.xnb</Output>
+      <Time>2011-11-19T13:23:02.3850541-05:00</Time>
+    </Item>
+    <Item>
+      <Source>MEDIA\Clock\FlipClock\Min49.png</Source>
+      <Name>MEDIA\Clock\FlipClock\Min49</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Daniel\Dropbox\Documents\Monarch\CLOCK\Scenic Clock HD PC X\Scenic Clock HD PC X\bin\x86\Debug\Content\MEDIA\Clock\FlipClock\Min49.xnb</Output>
+      <Time>2011-11-19T13:23:02.4450542-05:00</Time>
+    </Item>
+    <Item>
+      <Source>MEDIA\Clock\FlipClock\Min50.png</Source>
+      <Name>MEDIA\Clock\FlipClock\Min50</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Daniel\Dropbox\Documents\Monarch\CLOCK\Scenic Clock HD PC X\Scenic Clock HD PC X\bin\x86\Debug\Content\MEDIA\Clock\FlipClock\Min50.xnb</Output>
+      <Time>2011-11-19T13:23:02.4550542-05:00</Time>
+    </Item>
+    <Item>
+      <Source>MEDIA\Clock\FlipClock\Min51.png</Source>
+      <Name>MEDIA\Clock\FlipClock\Min51</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Daniel\Dropbox\Documents\Monarch\CLOCK\Scenic Clock HD PC X\Scenic Clock HD PC X\bin\x86\Debug\Content\MEDIA\Clock\FlipClock\Min51.xnb</Output>
+      <Time>2011-11-19T13:23:02.4650542-05:00</Time>
+    </Item>
+    <Item>
+      <Source>MEDIA\Clock\FlipClock\Min52.png</Source>
+      <Name>MEDIA\Clock\FlipClock\Min52</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Daniel\Dropbox\Documents\Monarch\CLOCK\Scenic Clock HD PC X\Scenic Clock HD PC X\bin\x86\Debug\Content\MEDIA\Clock\FlipClock\Min52.xnb</Output>
+      <Time>2011-11-19T13:23:02.4850542-05:00</Time>
+    </Item>
+    <Item>
+      <Source>MEDIA\Clock\FlipClock\Min53.png</Source>
+      <Name>MEDIA\Clock\FlipClock\Min53</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Daniel\Dropbox\Documents\Monarch\CLOCK\Scenic Clock HD PC X\Scenic Clock HD PC X\bin\x86\Debug\Content\MEDIA\Clock\FlipClock\Min53.xnb</Output>
+      <Time>2011-11-19T13:23:02.4950543-05:00</Time>
+    </Item>
+    <Item>
+      <Source>MEDIA\Clock\FlipClock\Min54.png</Source>
+      <Name>MEDIA\Clock\FlipClock\Min54</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Daniel\Dropbox\Documents\Monarch\CLOCK\Scenic Clock HD PC X\Scenic Clock HD PC X\bin\x86\Debug\Content\MEDIA\Clock\FlipClock\Min54.xnb</Output>
+      <Time>2011-11-19T13:23:02.5050543-05:00</Time>
+    </Item>
+    <Item>
+      <Source>MEDIA\Clock\FlipClock\Min55.png</Source>
+      <Name>MEDIA\Clock\FlipClock\Min55</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Daniel\Dropbox\Documents\Monarch\CLOCK\Scenic Clock HD PC X\Scenic Clock HD PC X\bin\x86\Debug\Content\MEDIA\Clock\FlipClock\Min55.xnb</Output>
+      <Time>2011-11-19T13:23:02.5250543-05:00</Time>
+    </Item>
+    <Item>
+      <Source>MEDIA\Clock\FlipClock\Min56.png</Source>
+      <Name>MEDIA\Clock\FlipClock\Min56</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Daniel\Dropbox\Documents\Monarch\CLOCK\Scenic Clock HD PC X\Scenic Clock HD PC X\bin\x86\Debug\Content\MEDIA\Clock\FlipClock\Min56.xnb</Output>
+      <Time>2011-11-19T13:23:02.5450543-05:00</Time>
+    </Item>
+    <Item>
+      <Source>MEDIA\Clock\FlipClock\Min57.png</Source>
+      <Name>MEDIA\Clock\FlipClock\Min57</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Daniel\Dropbox\Documents\Monarch\CLOCK\Scenic Clock HD PC X\Scenic Clock HD PC X\bin\x86\Debug\Content\MEDIA\Clock\FlipClock\Min57.xnb</Output>
+      <Time>2011-11-19T13:23:02.5850544-05:00</Time>
+    </Item>
+    <Item>
+      <Source>MEDIA\Clock\FlipClock\Min58.png</Source>
+      <Name>MEDIA\Clock\FlipClock\Min58</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Daniel\Dropbox\Documents\Monarch\CLOCK\Scenic Clock HD PC X\Scenic Clock HD PC X\bin\x86\Debug\Content\MEDIA\Clock\FlipClock\Min58.xnb</Output>
+      <Time>2011-11-19T13:23:02.6050544-05:00</Time>
+    </Item>
+    <Item>
+      <Source>MEDIA\Clock\FlipClock\Min59.png</Source>
+      <Name>MEDIA\Clock\FlipClock\Min59</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Daniel\Dropbox\Documents\Monarch\CLOCK\Scenic Clock HD PC X\Scenic Clock HD PC X\bin\x86\Debug\Content\MEDIA\Clock\FlipClock\Min59.xnb</Output>
+      <Time>2011-11-19T13:23:02.6250544-05:00</Time>
+    </Item>
+    <Item>
+      <Source>MEDIA\Clock\FlipClock\hours01.png</Source>
+      <Name>MEDIA\Clock\FlipClock\hours01</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Daniel\Dropbox\Documents\Monarch\CLOCK\Scenic Clock HD PC X\Scenic Clock HD PC X\bin\x86\Debug\Content\MEDIA\Clock\FlipClock\hours01.xnb</Output>
+      <Time>2011-11-19T13:23:02.6250544-05:00</Time>
+    </Item>
+    <Item>
+      <Source>MEDIA\Clock\FlipClock\hours02.png</Source>
+      <Name>MEDIA\Clock\FlipClock\hours02</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Daniel\Dropbox\Documents\Monarch\CLOCK\Scenic Clock HD PC X\Scenic Clock HD PC X\bin\x86\Debug\Content\MEDIA\Clock\FlipClock\hours02.xnb</Output>
+      <Time>2011-11-19T13:23:02.6250544-05:00</Time>
+    </Item>
+    <Item>
+      <Source>MEDIA\Clock\FlipClock\hours03.png</Source>
+      <Name>MEDIA\Clock\FlipClock\hours03</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Daniel\Dropbox\Documents\Monarch\CLOCK\Scenic Clock HD PC X\Scenic Clock HD PC X\bin\x86\Debug\Content\MEDIA\Clock\FlipClock\hours03.xnb</Output>
+      <Time>2011-11-19T13:23:02.6250544-05:00</Time>
+    </Item>
+    <Item>
+      <Source>MEDIA\Clock\FlipClock\hours04.png</Source>
+      <Name>MEDIA\Clock\FlipClock\hours04</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Daniel\Dropbox\Documents\Monarch\CLOCK\Scenic Clock HD PC X\Scenic Clock HD PC X\bin\x86\Debug\Content\MEDIA\Clock\FlipClock\hours04.xnb</Output>
+      <Time>2011-11-19T13:23:02.6350545-05:00</Time>
+    </Item>
+    <Item>
+      <Source>MEDIA\Clock\FlipClock\hours05.png</Source>
+      <Name>MEDIA\Clock\FlipClock\hours05</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Daniel\Dropbox\Documents\Monarch\CLOCK\Scenic Clock HD PC X\Scenic Clock HD PC X\bin\x86\Debug\Content\MEDIA\Clock\FlipClock\hours05.xnb</Output>
+      <Time>2011-11-19T13:23:02.6350545-05:00</Time>
+    </Item>
+    <Item>
+      <Source>MEDIA\Clock\FlipClock\hours06.png</Source>
+      <Name>MEDIA\Clock\FlipClock\hours06</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Daniel\Dropbox\Documents\Monarch\CLOCK\Scenic Clock HD PC X\Scenic Clock HD PC X\bin\x86\Debug\Content\MEDIA\Clock\FlipClock\hours06.xnb</Output>
+      <Time>2011-11-19T13:23:02.6350545-05:00</Time>
+    </Item>
+    <Item>
+      <Source>MEDIA\Clock\FlipClock\hours07.png</Source>
+      <Name>MEDIA\Clock\FlipClock\hours07</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Daniel\Dropbox\Documents\Monarch\CLOCK\Scenic Clock HD PC X\Scenic Clock HD PC X\bin\x86\Debug\Content\MEDIA\Clock\FlipClock\hours07.xnb</Output>
+      <Time>2011-11-19T13:23:02.6350545-05:00</Time>
+    </Item>
+    <Item>
+      <Source>MEDIA\Clock\FlipClock\hours08.png</Source>
+      <Name>MEDIA\Clock\FlipClock\hours08</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Daniel\Dropbox\Documents\Monarch\CLOCK\Scenic Clock HD PC X\Scenic Clock HD PC X\bin\x86\Debug\Content\MEDIA\Clock\FlipClock\hours08.xnb</Output>
+      <Time>2011-11-19T13:23:02.6350545-05:00</Time>
+    </Item>
+    <Item>
+      <Source>MEDIA\Clock\FlipClock\hours09.png</Source>
+      <Name>MEDIA\Clock\FlipClock\hours09</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Daniel\Dropbox\Documents\Monarch\CLOCK\Scenic Clock HD PC X\Scenic Clock HD PC X\bin\x86\Debug\Content\MEDIA\Clock\FlipClock\hours09.xnb</Output>
+      <Time>2011-11-19T13:23:02.6450545-05:00</Time>
+    </Item>
+    <Item>
+      <Source>MEDIA\Clock\FlipClock\hours10.png</Source>
+      <Name>MEDIA\Clock\FlipClock\hours10</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Daniel\Dropbox\Documents\Monarch\CLOCK\Scenic Clock HD PC X\Scenic Clock HD PC X\bin\x86\Debug\Content\MEDIA\Clock\FlipClock\hours10.xnb</Output>
+      <Time>2011-11-19T13:23:02.6450545-05:00</Time>
+    </Item>
+    <Item>
+      <Source>MEDIA\Clock\FlipClock\hours11.png</Source>
+      <Name>MEDIA\Clock\FlipClock\hours11</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Daniel\Dropbox\Documents\Monarch\CLOCK\Scenic Clock HD PC X\Scenic Clock HD PC X\bin\x86\Debug\Content\MEDIA\Clock\FlipClock\hours11.xnb</Output>
+      <Time>2011-11-19T13:23:02.6450545-05:00</Time>
+    </Item>
+    <Item>
+      <Source>MEDIA\Clock\FlipClock\hours12.png</Source>
+      <Name>MEDIA\Clock\FlipClock\hours12</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Daniel\Dropbox\Documents\Monarch\CLOCK\Scenic Clock HD PC X\Scenic Clock HD PC X\bin\x86\Debug\Content\MEDIA\Clock\FlipClock\hours12.xnb</Output>
+      <Time>2011-11-19T13:23:02.6550545-05:00</Time>
+    </Item>
+    <Item>
+      <Source>MEDIA\Clock\AnalogueClock\MinutesHand.png</Source>
+      <Name>MEDIA\Clock\AnalogueClock\MinutesHand</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Daniel\Dropbox\Documents\Monarch\CLOCK\Scenic Clock HD PC X\Scenic Clock HD PC X\bin\x86\Debug\Content\MEDIA\Clock\AnalogueClock\MinutesHand.xnb</Output>
+      <Time>2011-11-19T13:22:58.705049-05:00</Time>
+    </Item>
+    <Item>
+      <Source>MEDIA\Clock\DigitalClock\0.png</Source>
+      <Name>MEDIA\Clock\DigitalClock\0</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Daniel\Dropbox\Documents\Monarch\CLOCK\Scenic Clock HD PC X\Scenic Clock HD PC X\bin\x86\Debug\Content\MEDIA\Clock\DigitalClock\0.xnb</Output>
+      <Time>2011-11-19T13:22:58.725049-05:00</Time>
+    </Item>
+    <Item>
+      <Source>MEDIA\Clock\DigitalClock\1.png</Source>
+      <Name>MEDIA\Clock\DigitalClock\1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Daniel\Dropbox\Documents\Monarch\CLOCK\Scenic Clock HD PC X\Scenic Clock HD PC X\bin\x86\Debug\Content\MEDIA\Clock\DigitalClock\1.xnb</Output>
+      <Time>2011-11-19T13:22:58.735049-05:00</Time>
+    </Item>
+    <Item>
+      <Source>MEDIA\Clock\DigitalClock\2.png</Source>
+      <Name>MEDIA\Clock\DigitalClock\2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Daniel\Dropbox\Documents\Monarch\CLOCK\Scenic Clock HD PC X\Scenic Clock HD PC X\bin\x86\Debug\Content\MEDIA\Clock\DigitalClock\2.xnb</Output>
+      <Time>2011-11-19T13:22:58.745049-05:00</Time>
+    </Item>
+    <Item>
+      <Source>MEDIA\Clock\DigitalClock\3.png</Source>
+      <Name>MEDIA\Clock\DigitalClock\3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Daniel\Dropbox\Documents\Monarch\CLOCK\Scenic Clock HD PC X\Scenic Clock HD PC X\bin\x86\Debug\Content\MEDIA\Clock\DigitalClock\3.xnb</Output>
+      <Time>2011-11-19T13:22:58.765049-05:00</Time>
+    </Item>
+    <Item>
+      <Source>MEDIA\Clock\DigitalClock\4.png</Source>
+      <Name>MEDIA\Clock\DigitalClock\4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Daniel\Dropbox\Documents\Monarch\CLOCK\Scenic Clock HD PC X\Scenic Clock HD PC X\bin\x86\Debug\Content\MEDIA\Clock\DigitalClock\4.xnb</Output>
+      <Time>2011-11-19T13:22:58.7750491-05:00</Time>
+    </Item>
+    <Item>
+      <Source>MEDIA\Clock\DigitalClock\5.png</Source>
+      <Name>MEDIA\Clock\DigitalClock\5</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Daniel\Dropbox\Documents\Monarch\CLOCK\Scenic Clock HD PC X\Scenic Clock HD PC X\bin\x86\Debug\Content\MEDIA\Clock\DigitalClock\5.xnb</Output>
+      <Time>2011-11-19T13:22:58.7850491-05:00</Time>
+    </Item>
+    <Item>
+      <Source>MEDIA\Clock\DigitalClock\6.png</Source>
+      <Name>MEDIA\Clock\DigitalClock\6</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Daniel\Dropbox\Documents\Monarch\CLOCK\Scenic Clock HD PC X\Scenic Clock HD PC X\bin\x86\Debug\Content\MEDIA\Clock\DigitalClock\6.xnb</Output>
+      <Time>2011-11-19T13:22:58.7950491-05:00</Time>
+    </Item>
+    <Item>
+      <Source>MEDIA\Clock\DigitalClock\7.png</Source>
+      <Name>MEDIA\Clock\DigitalClock\7</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Daniel\Dropbox\Documents\Monarch\CLOCK\Scenic Clock HD PC X\Scenic Clock HD PC X\bin\x86\Debug\Content\MEDIA\Clock\DigitalClock\7.xnb</Output>
+      <Time>2011-11-19T13:22:58.8050491-05:00</Time>
+    </Item>
+    <Item>
+      <Source>MEDIA\Clock\DigitalClock\8.png</Source>
+      <Name>MEDIA\Clock\DigitalClock\8</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Daniel\Dropbox\Documents\Monarch\CLOCK\Scenic Clock HD PC X\Scenic Clock HD PC X\bin\x86\Debug\Content\MEDIA\Clock\DigitalClock\8.xnb</Output>
+      <Time>2011-11-19T13:22:58.8250491-05:00</Time>
+    </Item>
+    <Item>
+      <Source>MEDIA\Clock\DigitalClock\9.png</Source>
+      <Name>MEDIA\Clock\DigitalClock\9</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Daniel\Dropbox\Documents\Monarch\CLOCK\Scenic Clock HD PC X\Scenic Clock HD PC X\bin\x86\Debug\Content\MEDIA\Clock\DigitalClock\9.xnb</Output>
+      <Time>2011-11-19T13:22:58.8350491-05:00</Time>
+    </Item>
+    <Item>
+      <Source>MEDIA\Clock\DigitalClock\AM.png</Source>
+      <Name>MEDIA\Clock\DigitalClock\AM</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Daniel\Dropbox\Documents\Monarch\CLOCK\Scenic Clock HD PC X\Scenic Clock HD PC X\bin\x86\Debug\Content\MEDIA\Clock\DigitalClock\AM.xnb</Output>
+      <Time>2011-11-19T13:22:58.8450492-05:00</Time>
+    </Item>
+    <Item>
+      <Source>MEDIA\Clock\DigitalClock\Month4.png</Source>
+      <Name>MEDIA\Clock\DigitalClock\Month4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Daniel\Dropbox\Documents\Monarch\CLOCK\Scenic Clock HD PC X\Scenic Clock HD PC X\bin\x86\Debug\Content\MEDIA\Clock\DigitalClock\Month4.xnb</Output>
+      <Time>2011-11-19T13:22:59.1550496-05:00</Time>
+    </Item>
+    <Item>
+      <Source>MEDIA\Clock\DigitalClock\Month8.png</Source>
+      <Name>MEDIA\Clock\DigitalClock\Month8</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Daniel\Dropbox\Documents\Monarch\CLOCK\Scenic Clock HD PC X\Scenic Clock HD PC X\bin\x86\Debug\Content\MEDIA\Clock\DigitalClock\Month8.xnb</Output>
+      <Time>2011-11-19T13:22:59.3550499-05:00</Time>
+    </Item>
+    <Item>
+      <Source>MEDIA\Clock\DigitalClock\Colon.png</Source>
+      <Name>MEDIA\Clock\DigitalClock\Colon</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Daniel\Dropbox\Documents\Monarch\CLOCK\Scenic Clock HD PC X\Scenic Clock HD PC X\bin\x86\Debug\Content\MEDIA\Clock\DigitalClock\Colon.xnb</Output>
+      <Time>2011-11-19T13:22:58.8850492-05:00</Time>
+    </Item>
+    <Item>
+      <Source>MEDIA\Clock\DigitalClock\Month12.png</Source>
+      <Name>MEDIA\Clock\DigitalClock\Month12</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Daniel\Dropbox\Documents\Monarch\CLOCK\Scenic Clock HD PC X\Scenic Clock HD PC X\bin\x86\Debug\Content\MEDIA\Clock\DigitalClock\Month12.xnb</Output>
+      <Time>2011-11-19T13:22:59.1150495-05:00</Time>
+    </Item>
+    <Item>
+      <Source>MEDIA\Clock\DigitalClock\Month2.png</Source>
+      <Name>MEDIA\Clock\DigitalClock\Month2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Daniel\Dropbox\Documents\Monarch\CLOCK\Scenic Clock HD PC X\Scenic Clock HD PC X\bin\x86\Debug\Content\MEDIA\Clock\DigitalClock\Month2.xnb</Output>
+      <Time>2011-11-19T13:22:59.1250495-05:00</Time>
+    </Item>
+    <Item>
+      <Source>MEDIA\Clock\DigitalClock\Day5.png</Source>
+      <Name>MEDIA\Clock\DigitalClock\Day5</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Daniel\Dropbox\Documents\Monarch\CLOCK\Scenic Clock HD PC X\Scenic Clock HD PC X\bin\x86\Debug\Content\MEDIA\Clock\DigitalClock\Day5.xnb</Output>
+      <Time>2011-11-19T13:22:59.0150494-05:00</Time>
+    </Item>
+    <Item>
+      <Source>MEDIA\Clock\DigitalClock\Month1.png</Source>
+      <Name>MEDIA\Clock\DigitalClock\Month1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Daniel\Dropbox\Documents\Monarch\CLOCK\Scenic Clock HD PC X\Scenic Clock HD PC X\bin\x86\Debug\Content\MEDIA\Clock\DigitalClock\Month1.xnb</Output>
+      <Time>2011-11-19T13:22:59.0550494-05:00</Time>
+    </Item>
+    <Item>
+      <Source>MEDIA\Clock\DigitalClock\Month7.png</Source>
+      <Name>MEDIA\Clock\DigitalClock\Month7</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Daniel\Dropbox\Documents\Monarch\CLOCK\Scenic Clock HD PC X\Scenic Clock HD PC X\bin\x86\Debug\Content\MEDIA\Clock\DigitalClock\Month7.xnb</Output>
+      <Time>2011-11-19T13:22:59.2250497-05:00</Time>
+    </Item>
+    <Item>
+      <Source>MEDIA\Clock\DigitalClock\Month6.png</Source>
+      <Name>MEDIA\Clock\DigitalClock\Month6</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Daniel\Dropbox\Documents\Monarch\CLOCK\Scenic Clock HD PC X\Scenic Clock HD PC X\bin\x86\Debug\Content\MEDIA\Clock\DigitalClock\Month6.xnb</Output>
+      <Time>2011-11-19T13:22:59.1850496-05:00</Time>
+    </Item>
+    <Item>
+      <Source>MEDIA\Clock\DigitalClock\Month3.png</Source>
+      <Name>MEDIA\Clock\DigitalClock\Month3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Daniel\Dropbox\Documents\Monarch\CLOCK\Scenic Clock HD PC X\Scenic Clock HD PC X\bin\x86\Debug\Content\MEDIA\Clock\DigitalClock\Month3.xnb</Output>
+      <Time>2011-11-19T13:22:59.1450496-05:00</Time>
+    </Item>
+    <Item>
+      <Source>MEDIA\Clock\DigitalClock\Month5.png</Source>
+      <Name>MEDIA\Clock\DigitalClock\Month5</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Daniel\Dropbox\Documents\Monarch\CLOCK\Scenic Clock HD PC X\Scenic Clock HD PC X\bin\x86\Debug\Content\MEDIA\Clock\DigitalClock\Month5.xnb</Output>
+      <Time>2011-11-19T13:22:59.1750496-05:00</Time>
+    </Item>
+    <Item>
+      <Source>MEDIA\Clock\DigitalClock\Day1.png</Source>
+      <Name>MEDIA\Clock\DigitalClock\Day1</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Daniel\Dropbox\Documents\Monarch\CLOCK\Scenic Clock HD PC X\Scenic Clock HD PC X\bin\x86\Debug\Content\MEDIA\Clock\DigitalClock\Day1.xnb</Output>
+      <Time>2011-11-19T13:22:58.9250493-05:00</Time>
+    </Item>
+    <Item>
+      <Source>MEDIA\Clock\DigitalClock\Month11.png</Source>
+      <Name>MEDIA\Clock\DigitalClock\Month11</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Daniel\Dropbox\Documents\Monarch\CLOCK\Scenic Clock HD PC X\Scenic Clock HD PC X\bin\x86\Debug\Content\MEDIA\Clock\DigitalClock\Month11.xnb</Output>
+      <Time>2011-11-19T13:22:59.0950495-05:00</Time>
+    </Item>
+    <Item>
+      <Source>MEDIA\Clock\DigitalClock\Month10.png</Source>
+      <Name>MEDIA\Clock\DigitalClock\Month10</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Daniel\Dropbox\Documents\Monarch\CLOCK\Scenic Clock HD PC X\Scenic Clock HD PC X\bin\x86\Debug\Content\MEDIA\Clock\DigitalClock\Month10.xnb</Output>
+      <Time>2011-11-19T13:22:59.0850495-05:00</Time>
+    </Item>
+    <Item>
+      <Source>MEDIA\Clock\DigitalClock\PM.png</Source>
+      <Name>MEDIA\Clock\DigitalClock\PM</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Daniel\Dropbox\Documents\Monarch\CLOCK\Scenic Clock HD PC X\Scenic Clock HD PC X\bin\x86\Debug\Content\MEDIA\Clock\DigitalClock\PM.xnb</Output>
+      <Time>2011-11-19T13:22:59.43505-05:00</Time>
+    </Item>
+    <Item>
+      <Source>MEDIA\Clock\DigitalClock\Day6.png</Source>
+      <Name>MEDIA\Clock\DigitalClock\Day6</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Daniel\Dropbox\Documents\Monarch\CLOCK\Scenic Clock HD PC X\Scenic Clock HD PC X\bin\x86\Debug\Content\MEDIA\Clock\DigitalClock\Day6.xnb</Output>
+      <Time>2011-11-19T13:22:59.0250494-05:00</Time>
+    </Item>
+    <Item>
+      <Source>MEDIA\Clock\DigitalClock\Month9.png</Source>
+      <Name>MEDIA\Clock\DigitalClock\Month9</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Daniel\Dropbox\Documents\Monarch\CLOCK\Scenic Clock HD PC X\Scenic Clock HD PC X\bin\x86\Debug\Content\MEDIA\Clock\DigitalClock\Month9.xnb</Output>
+      <Time>2011-11-19T13:22:59.3850499-05:00</Time>
+    </Item>
+    <Item>
+      <Source>MEDIA\Clock\DigitalClock\Day0.png</Source>
+      <Name>MEDIA\Clock\DigitalClock\Day0</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Daniel\Dropbox\Documents\Monarch\CLOCK\Scenic Clock HD PC X\Scenic Clock HD PC X\bin\x86\Debug\Content\MEDIA\Clock\DigitalClock\Day0.xnb</Output>
+      <Time>2011-11-19T13:22:58.9150492-05:00</Time>
+    </Item>
+    <Item>
+      <Source>MEDIA\Clock\DigitalClock\Day4.png</Source>
+      <Name>MEDIA\Clock\DigitalClock\Day4</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Daniel\Dropbox\Documents\Monarch\CLOCK\Scenic Clock HD PC X\Scenic Clock HD PC X\bin\x86\Debug\Content\MEDIA\Clock\DigitalClock\Day4.xnb</Output>
+      <Time>2011-11-19T13:22:58.9950494-05:00</Time>
+    </Item>
+    <Item>
+      <Source>MEDIA\Clock\DigitalClock\Day2.png</Source>
+      <Name>MEDIA\Clock\DigitalClock\Day2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Daniel\Dropbox\Documents\Monarch\CLOCK\Scenic Clock HD PC X\Scenic Clock HD PC X\bin\x86\Debug\Content\MEDIA\Clock\DigitalClock\Day2.xnb</Output>
+      <Time>2011-11-19T13:22:58.9450493-05:00</Time>
+    </Item>
+    <Item>
+      <Source>MEDIA\Clock\DigitalClock\Day3.png</Source>
+      <Name>MEDIA\Clock\DigitalClock\Day3</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Daniel\Dropbox\Documents\Monarch\CLOCK\Scenic Clock HD PC X\Scenic Clock HD PC X\bin\x86\Debug\Content\MEDIA\Clock\DigitalClock\Day3.xnb</Output>
+      <Time>2011-11-19T13:22:58.9850493-05:00</Time>
+    </Item>
+    <Item>
+      <Source>MEDIA\Clock\DigitalClock\BG.png</Source>
+      <Name>MEDIA\Clock\DigitalClock\BG</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Daniel\Dropbox\Documents\Monarch\CLOCK\Scenic Clock HD PC X\Scenic Clock HD PC X\bin\x86\Debug\Content\MEDIA\Clock\DigitalClock\BG.xnb</Output>
+      <Time>2011-11-19T13:22:58.8750492-05:00</Time>
+    </Item>
+    <Item>
+      <Source>MEDIA\Clock\DigitalClock\reference.png</Source>
+      <Name>MEDIA\Clock\DigitalClock\reference</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Daniel\Dropbox\Documents\Monarch\CLOCK\Scenic Clock HD PC X\Scenic Clock HD PC X\bin\x86\Debug\Content\MEDIA\Clock\DigitalClock\reference.xnb</Output>
+      <Time>2011-11-19T13:23:02.6550545-05:00</Time>
+    </Item>
+    <Item>
+      <Source>MEDIA\Clock\AnalogueClock\HoursHand.png</Source>
+      <Name>MEDIA\Clock\AnalogueClock\HoursHand</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Daniel\Dropbox\Documents\Monarch\CLOCK\Scenic Clock HD PC X\Scenic Clock HD PC X\bin\x86\Debug\Content\MEDIA\Clock\AnalogueClock\HoursHand.xnb</Output>
+      <Time>2011-11-19T13:22:58.6350489-05:00</Time>
+    </Item>
+    <Item>
+      <Source>MEDIA\Clock\AnalogueClock\AnalogueClockFace.png</Source>
+      <Name>MEDIA\Clock\AnalogueClock\AnalogueClockFace</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Daniel\Dropbox\Documents\Monarch\CLOCK\Scenic Clock HD PC X\Scenic Clock HD PC X\bin\x86\Debug\Content\MEDIA\Clock\AnalogueClock\AnalogueClockFace.xnb</Output>
+      <Time>2011-11-19T13:22:58.6150488-05:00</Time>
+    </Item>
+    <Item>
+      <Source>MEDIA\Clock\AnalogueClock\SecondsHand.png</Source>
+      <Name>MEDIA\Clock\AnalogueClock\SecondsHand</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Daniel\Dropbox\Documents\Monarch\CLOCK\Scenic Clock HD PC X\Scenic Clock HD PC X\bin\x86\Debug\Content\MEDIA\Clock\AnalogueClock\SecondsHand.xnb</Output>
+      <Time>2011-11-19T13:22:58.725049-05:00</Time>
+    </Item>
+    <Item>
+      <Source>MEDIA\SlideshowOFF.png</Source>
+      <Name>MEDIA\SlideshowOFF</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Daniel\Dropbox\Documents\Monarch\CLOCK\Scenic Clock HD PC X\Scenic Clock HD PC X\bin\x86\Debug\Content\MEDIA\SlideshowOFF.xnb</Output>
+      <Time>2011-11-19T13:23:02.6650545-05:00</Time>
+    </Item>
+    <Item>
+      <Source>MEDIA\SlideshowON.png</Source>
+      <Name>MEDIA\SlideshowON</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Daniel\Dropbox\Documents\Monarch\CLOCK\Scenic Clock HD PC X\Scenic Clock HD PC X\bin\x86\Debug\Content\MEDIA\SlideshowON.xnb</Output>
+      <Time>2011-11-19T13:23:02.6850545-05:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>Reach</TargetProfile>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>C:\Users\Daniel\Dropbox\Documents\Monarch\CLOCK\Scenic Clock HD PC X\Scenic Clock HD PC XContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Daniel\Dropbox\Documents\Monarch\CLOCK\Scenic Clock HD PC X\Scenic Clock HD PC X\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Daniel\Dropbox\Documents\Monarch\CLOCK\Scenic Clock HD PC X\Scenic Clock HD PC XContent\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Daniel\Dropbox\Documents\Monarch\CLOCK\Scenic Clock HD PC X\Scenic Clock HD PC X\bin\x86\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2010-08-23T12:41:18-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2010-08-23T12:41:18-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2010-08-23T12:41:18-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2010-08-23T12:41:18-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2010-08-23T12:41:18-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2010-08-23T12:41:18-04:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2011-08-31T13:53:59.9782006-04:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>

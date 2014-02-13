@@ -1,0 +1,66 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using Microsoft.Xna.Framework.Graphics;
+using Microsoft.Xna.Framework;
+
+namespace Scenic_Clock_HD_PC_X
+{
+    class AnalogClock : Clock
+    {
+        // texture rectangles
+        Rectangle shortHandTexRect;
+        Rectangle longHandTexRect;
+        Rectangle secondHandTexRect;
+        Rectangle faceTexRect;
+
+        // texture rotations
+        int shortHandRotation = 0;
+        int longHandRotation = 0;
+        int secondHandRotation = 0;
+
+        // textures origins
+        Vector2 shortHandTexOrigin;
+        Vector2 longHandTexOrigin;
+        Vector2 secondHandTexOrigin;
+
+        // proportion percentages (in decimal form)
+
+
+
+        public AnalogClock(Information newInformation)
+        {
+            information = newInformation;
+        }
+
+        public override void SetNumbers(Texture2D tex) 
+        {
+            
+        }
+
+        public override void Update(GameTime gameTime)
+        {
+            UpdateTextureInformation();
+        }
+
+        public override void Draw(SpriteBatch spriteBatch, GameTime gameTime)
+        {
+            //spriteBatch.Draw(currentWallpaperTex, dest, curSrc, currentWallColor, 0, new Vector2(), SpriteEffects.None, 0);
+        }
+
+        /// <summary>
+        /// Updates the size, position, origin, etc information for the textures making up the Analog Clock.
+        /// </summary>
+        public void UpdateTextureInformation()
+        {
+            shortHandTexOrigin = new Vector2(((int)information.analogClockShortHandTex.Width / 2),
+                                      ((int)information.analogClockShortHandTex.Height - (information.analogClockShortHandTex.Width / 2)));
+            longHandTexOrigin = new Vector2(((int)information.analogClockLongHandTex.Width / 2),
+                                      ((int)information.analogClockLongHandTex.Height - (information.analogClockLongHandTex.Width / 2)));
+            secondHandTexOrigin = new Vector2(((int)information.analogClockSecondHandTex.Width / 2),
+                                      ((int)information.analogClockSecondHandTex.Height - (information.analogClockSecondHandTex.Width / 2)));
+            
+        }
+    }
+}

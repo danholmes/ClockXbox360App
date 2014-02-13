@@ -1,0 +1,354 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using Microsoft.Xna.Framework;
+using Microsoft.Xna.Framework.Audio;
+using Microsoft.Xna.Framework.Content;
+using Microsoft.Xna.Framework.GamerServices;
+using Microsoft.Xna.Framework.Graphics;
+using Microsoft.Xna.Framework.Input;
+using Microsoft.Xna.Framework.Media;
+
+namespace Scenic_Clock_HD_PC_X
+{
+    class Wallpaper
+    {
+        // Library
+        Information information;
+
+        float wallscale;
+
+        #region Wallpaper Enum
+        WallpaperTextures defaultWallpaperTex = WallpaperTextures.natLeaves; // the wallpaper the app starts up on
+        public WallpaperTextures currentWallpaperTexEnum; // the wallpaper the app is currently using
+        public enum WallpaperTextures // an enum of all the possible wallapers
+        {
+            natGrass,
+            natLeaves,
+            mountainBeach
+        }
+        #endregion
+
+
+
+        int currentWallpaperDurationInMS = 0; // how long the current wallpaper has been shown
+
+        bool changingWallpaper = false; // if the wallpaper is currently going through a change animation
+        int durationOfAnimationinMS = 2400; // the goal duration of the change animation (fade) in milliseconds
+        int currentAnimationDuration = 0; // the actual duration of the change animation (fade) in milliseconds
+
+        bool manualNextWallpaperChangeButtonPushed = false; // if the user has pressed the change-to-next-wallpaper button during the current transition animation
+        bool manualPrevWallpaperChangeButtonPushed = false; // if the user has pressed the change-to-prev-wallpaper button during the current transition animation
+
+        public Texture2D oldWallpaperTexFile;
+        Color oldWallColor;
+
+        public Texture2D currentWallpaperTexFile;
+        Color currentWallColor = Color.White;
+
+        public Texture2D newWallpaperTexFile;
+        Color newWallColor;
+
+
+        #region Wallpaper Display Mode
+        WallDisplayMode defaultWallDisplayMode = WallDisplayMode.Stretch;
+        WallDisplayMode wallDisplayMode;
+        enum WallDisplayMode
+        {
+            Stretch,
+            Fill
+        }
+        #endregion
+
+        bool initialized = false;
+
+        int timeSinceUserLastGaveInputMS = 50000;
+        int minTimeBetweenUserInputAndSlideshowUpdate = 3000;
+
+
+        // Methods
+
+
+        public Wallpaper(Information newInformation)
+        {
+            information = newInformation;
+            wallDisplayMode = defaultWallDisplayMode;
+        }
+
+        public void Update(GameTime gameTime)
+        {
+            if (information.AnyControllerActiveThisCycle())
+            {
+                timeSinceUserLastGaveInputMS = 0;
+            }
+            else
+            {
+                timeSinceUserLastGaveInputMS += gameTime.ElapsedGameTime.Milliseconds;
+            }
+
+            if (!initialized)
+            { // if the wallpaper obj has not run through initialization yet, do it
+                Initialize();
+            }
+
+            
+            TransitionUpdate(gameTime); // update the transition effect, if its currently taking place at all
+            
+            if (timeSinceUserLastGaveInputMS > minTimeBetweenUserInputAndSlideshowUpdate)
+            {
+            SlideshowUpdate(gameTime); // update the slideshow effect, if its currently taking place at all
+            }
+
+
+            ManualWallpaperChangeUpdate(gameTime); // deal with a manual wallpaper change (if any)
+
+        }
+
+        public void Draw(SpriteBatch spriteBatch, GameTime gameTime)
+        {
+
+            /*Rectangle dest = new Rectangle((int)information.startingPoint.X,
+                                    (int)information.startingPoint.Y,
+                                    (int)information.screenSizePixels.X,
+                                    (int)information.screenSizePixels.Y);  */
+            
+           
+
+            Vector2 sp = information.startingPoint;
+            Vector2 pixels = information.screenSizePixels;
+            Rectangle dest = new Rectangle((int)sp.X, (int)sp.Y, (int)pixels.X, (int)pixels.Y);
+
+            if (!changingWallpaper)
+            {
+                Rectangle curSrc = new Rectangle(0, 0, currentWallpaperTexFile.Width, currentWallpaperTexFile.Height);
+                spriteBatch.Draw(currentWallpaperTexFile, dest, curSrc, currentWallColor, 0, new Vector2(), SpriteEffects.None, 0);
+            }
+            else
+            {
+                Rectangle oldSrc = new Rectangle(0, 0, oldWallpaperTexFile.Width, newWallpaperTexFile.Height);
+                Rectangle newSrc = new Rectangle(0, 0, newWallpaperTexFile.Width, newWallpaperTexFile.Height);
+                spriteBatch.Draw(oldWallpaperTexFile, dest, oldSrc, oldWallColor, 0, new Vector2(), SpriteEffects.None, 0);
+                spriteBatch.Draw(newWallpaperTexFile, dest, newSrc, newWallColor, 0, new Vector2(), SpriteEffects.None, 0);
+            }
+        }
+
+        public void ChangeWallpaper(bool quickChange, WallpaperTextures newWallTex)
+        {
+            Texture2D newWallTexFile;
+            newWallTexFile = information.wallNatGrass;
+
+
+            #region Set New Wallpaper Texture File
+            switch (newWallTex)
+            {
+                case WallpaperTextures.natGrass:
+                    newWallTexFile = information.wallNatGrass;
+                    break;
+
+                case WallpaperTextures.natLeaves:
+                    newWallTexFile = information.wallNatLeaves;
+                    break;
+                case WallpaperTextures.mountainBeach:
+                    newWallTexFile = information.wallMountainBeach;
+                    break;
+
+            }
+            #endregion
+
+            if (quickChange && !changingWallpaper)
+            {
+                currentWallpaperTexEnum = newWallTex;
+                currentWallpaperTexFile = newWallTexFile;
+            }
+            else 
+            {
+                newWallpaperTexFile = newWallTexFile;
+                oldWallpaperTexFile = currentWallpaperTexFile;
+                changingWallpaper = true;
+            }
+            currentWallpaperTexEnum = newWallTex;
+        }
+
+        /*
+        public Rectangle CreateWallRectangle(Texture2D newWall)
+        {
+            Rectangle newWallRectangle = new Rectangle();
+            switch (wallDisplayMode)
+            {
+                case WallDisplayMode.Fill:
+                    if (newWall.Width > newWall.Height)
+                    {
+                        // if width is greater than height, then fit image to screen height
+                        float heightFitRatio = (information.screenSizePixels.Y / newWall.Height);
+                        int newWallWidthPx = (int)(newWall.Width * heightFitRatio);
+                        int newWallHeightPx = (int)(newWall.Height * heightFitRatio);
+                        newWallRectangle = new Rectangle((int)information.startingPoint.X,
+                                                         (int)information.startingPoint.Y,
+                                                         newWallWidthPx,
+                                                         newWallHeightPx);
+                        wallscale = heightFitRatio;
+
+                    }
+                    else
+                    {
+                        // otherwise, fit image to screen width
+                        float widthFitRatio = (information.screenSizePixels.X / newWall.Width);
+                        int newWallWidthPx = (int)(newWall.Width * widthFitRatio);
+                        int newWallHeightPx = (int)(newWall.Height * widthFitRatio);
+                        newWallRectangle = new Rectangle((int)information.startingPoint.X,
+                                                         (int)information.startingPoint.Y,
+                                                         newWallWidthPx,
+                                                         newWallHeightPx);
+                        wallscale = widthFitRatio;
+                    }
+                    break;
+
+                case WallDisplayMode.Stretch:
+                    newWallRectangle = new Rectangle((int)information.startingPoint.X,
+                                                     (int)information.startingPoint.Y,
+                                                     (int)information.screenSizePixels.X,
+                                                     (int)information.screenSizePixels.Y);
+                    break;
+            }
+            return newWallRectangle;
+        }
+        
+        */
+
+        public void TransitionUpdate(GameTime gameTime)
+        { // updates the transition effect between wallpapers
+
+            if (changingWallpaper)
+            { // if the wallpaper is currently going through a transition, update it
+                currentAnimationDuration += gameTime.ElapsedGameTime.Milliseconds; // update the current duration of the animation
+                if (currentAnimationDuration < durationOfAnimationinMS)
+                { // if the current animation duration has not exceeded the goal animation duration, update the animation
+                    int newWallAlpha = (int)((currentAnimationDuration * 255) / durationOfAnimationinMS); // this creates the new transparency for the new wallpaper (fades from nothing to full opacity)
+                    newWallColor = new Color(255, 255, 255, newWallAlpha);
+
+                    int oldWallAlpha = 255 - newWallAlpha; // this creates the new transparency for the old wallpaper (fades to nothing)
+                    oldWallColor = new Color(255, 255, 255, oldWallAlpha);
+                }
+                else
+                { // else, since the animation has exceeded the goal duration, then reset the animation values and turn off the animation
+                    currentAnimationDuration = 0;
+                    changingWallpaper = false;
+                    currentWallpaperTexFile = newWallpaperTexFile;
+                    oldWallpaperTexFile = null;
+                    newWallColor = new Color(0, 0, 0, 0);
+                    oldWallColor = Color.White;
+                    manualNextWallpaperChangeButtonPushed = false;
+
+                }
+
+            }
+        }
+
+        public WallpaperTextures GetNextWallpaper(WallpaperTextures wall)
+        { // returns the next wallpaper in line to be displayed
+            WallpaperTextures wallReturn = WallpaperTextures.natGrass;
+            switch (wall)
+            {
+                case WallpaperTextures.natGrass:
+                    wallReturn = WallpaperTextures.natLeaves;
+                    break;
+                case WallpaperTextures.natLeaves:
+                    wallReturn = WallpaperTextures.mountainBeach;
+                    break;
+                case WallpaperTextures.mountainBeach:
+                    wallReturn = WallpaperTextures.natGrass;
+                    break;
+
+            }
+
+            return wallReturn;
+        }
+
+        public WallpaperTextures GetPrevWallpaper(WallpaperTextures wall)
+        { // returns the next wallpaper in line to be displayed
+            WallpaperTextures wallReturn = WallpaperTextures.natGrass;
+            switch (wall)
+            {
+                case WallpaperTextures.natGrass:
+                    wallReturn = WallpaperTextures.mountainBeach;
+                    break;
+                case WallpaperTextures.natLeaves:
+                    wallReturn = WallpaperTextures.natGrass;
+                    break;
+                case WallpaperTextures.mountainBeach:
+                    wallReturn = WallpaperTextures.natLeaves;
+                    break;
+            }
+
+            return wallReturn;
+        }
+
+
+        public void SlideshowUpdate(GameTime gameTime)
+        { // updates the slideshow, if there is one occuring
+            if (information.options.currentWallpaperTransitionMode == Options.WallpaperTransitionMode.AutoSlideshow)
+            {
+                currentWallpaperDurationInMS += gameTime.ElapsedGameTime.Milliseconds;
+
+                if (currentWallpaperDurationInMS >= information.options.WallpaperDurationInMS && !changingWallpaper)
+                {
+                    currentWallpaperDurationInMS = 0;
+                    ChangeWallpaper(false, GetNextWallpaper(currentWallpaperTexEnum));
+
+                }
+            }
+        }
+
+        public void ManualWallpaperChangeUpdate(GameTime gameTime)
+        { // deals with if the user tries to manually change the wallpaper
+            if (changingWallpaper && information.CheckIfControlActivated(information.manualChangeToNextWallpaperButton, Information.PlayerIDs.All))
+            { // updates information - specifically that the user pressed the change-to-next-wallpaper-button while the wallpaper was changing
+                manualNextWallpaperChangeButtonPushed = true;
+            }
+            if (!changingWallpaper && information.CheckIfControlActivated(information.manualChangeToNextWallpaperButton, Information.PlayerIDs.All))
+            { // if the wallpaper is not currently changing, then change to the next wallpaper with a fade effect
+                ChangeWallpaper(false, GetNextWallpaper(currentWallpaperTexEnum));
+            }
+            else if (changingWallpaper && manualNextWallpaperChangeButtonPushed && information.CheckIfControlActivated(information.manualChangeToNextWallpaperButton, Information.PlayerIDs.All))
+            { // skips the fading animation effect - makes it so the user can double-tap the manual-wallpaper-change button and it will instantly go to the next wallpaper
+                currentAnimationDuration = 0;
+                changingWallpaper = false;
+                currentWallpaperTexFile = newWallpaperTexFile;
+                oldWallpaperTexFile = null;
+                newWallColor = new Color(0, 0, 0, 0);
+                oldWallColor = Color.White;
+                manualNextWallpaperChangeButtonPushed = false;
+            }
+
+            if (changingWallpaper && information.CheckIfControlActivated(information.manualChangeToPrevWallpaperButton, Information.PlayerIDs.All))
+            {// updates information - specifically that the user pressed the change-to-prev-wallpaper button while the wallpaper was changing
+                manualPrevWallpaperChangeButtonPushed = true;
+            }
+
+            if (!changingWallpaper && information.CheckIfControlActivated(information.manualChangeToPrevWallpaperButton, Information.PlayerIDs.All))
+            { // if the wallpaper is not currently changing, then change to the previous wallpaper with a fade effect
+                ChangeWallpaper(false, GetPrevWallpaper(currentWallpaperTexEnum));
+            }
+            else if (changingWallpaper && manualPrevWallpaperChangeButtonPushed && information.CheckIfControlActivated(information.manualChangeToPrevWallpaperButton, Information.PlayerIDs.All))
+            {// skips the fading animation effect - makes it so the user can double-tap the manual-wallpaper-change button and it will instantly go to the previous wallpaper
+                currentAnimationDuration = 0;
+                changingWallpaper = false;
+                currentWallpaperTexFile = newWallpaperTexFile;
+                oldWallpaperTexFile = null;
+                newWallColor = new Color(0, 0, 0, 0);
+                oldWallColor = Color.White;
+                manualPrevWallpaperChangeButtonPushed = false;
+            }
+        }
+
+        public void Initialize()
+        {
+            ChangeWallpaper(true, defaultWallpaperTex);
+            initialized = true;
+        }
+
+
+
+
+    }
+}
